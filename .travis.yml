@@ -1,5 +1,10 @@
 dist: xenial
 
+notifications:
+  email:
+    - ajramirez@us.es
+    on_sucess: always
+    on_failure: never
 services:
   - postgresql
 addons:

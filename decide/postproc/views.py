@@ -15,6 +15,9 @@ class PostProcView(APIView):
 
         out.sort(key=lambda x: -x['postproc'])
         return Response(out)
+    def prueba:
+        return None;
+
 
     def post(self, request):
         """
